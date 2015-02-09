@@ -1,0 +1,20 @@
+.container {
+  width: 100% !important;
+}
+body {
+  background-color: #1ab394;
+}
+.wrapper {
+  width: 800px;
+  margin: 40px auto 0px auto;
+  background-color: #fff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.home-logo {
+  position: relative;
+  bottom: 50px;
+}
+#footer {
+  border-radius: 0;
+  clear: both;
+}

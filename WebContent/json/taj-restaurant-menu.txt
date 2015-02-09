@@ -1,0 +1,165 @@
+    {
+        "name": "Appetizers",
+        "items": [
+            {
+                "itemname": "samosa",
+                "description": "A light pastry shell stuffed with peas and potatoes.",
+                "price": "$5.95"
+            },
+            {
+                "itemname": "Onion bajji",
+                "description": "Plain savoury onion fritters, delicately spiced.",
+                "price": "$4.99"
+            },
+            {
+                "itemname": "Paneer Pakora",
+                "description": "Indian cream cheese fritters, subtly spiced.",
+                "price": "$5.99"
+            },
+            {
+                "itemname": "Papri-Pakauri",
+                "description": "Crisp wafers with chick-peas and potato cubes in curd, spiced to taste.",
+                "price": "$5.95"
+            },
+            {
+                "itemname": "Aloo Chaat",
+                "description": "A potato delicacy tossed with spices and lemon juice (served chilled).",
+                "price": "$5.00"
+            }
+        ]
+    },
+    {
+        "name": "Soups",
+        "items": [
+            {
+                "itemname": "Creame of Tomato",
+                "description": "Fresh tomato soup with herbs and spices.",
+                "price": "$3.95"
+            },
+            {
+                "itemname": "Spinach 'n' Cream ",
+                "description": "Spinach soup with herbs, spices, and cream.",
+                "price": "$3.95"
+            },
+            {
+                "itemname": "Chicken soup",
+                "description": "A spicy chicken soup.",
+                "price": "$3.95"
+            }
+        ]
+    },
+    {
+        "name": "Salads",
+        "items": [
+            {
+                "itemname": "Katchumber Salad",
+                "description": "Fresh lettuce, cucumber and tomatoes in a house dressing.",
+                "price": "$4.59"
+            },
+            {
+                "itemname": "Onion Salad",
+                "description": "A popular Indian salad with onions, tomatoes, jalapeños and spices.",
+                "price": "$4.59"
+            }
+        ]
+    },
+    {
+        "name": "Vegetarian Kitchen",
+        "items": [
+            {
+                "itemname": "Dhum Aloo",
+                "description": "A delicious fried potato curry.",
+                "price": "$11.95"
+            },
+            {
+                "itemname": "Saag Paneer ",
+                "description": "Spinach cooked with homemade cheese and special spices.",
+                "price": "$11.95"
+            },
+            {
+                "itemname": "Aloo Gobi ",
+                "description": "Subtly spiced cauliflower and potatoes with herbs.",
+                "price": "$11.95"
+            },
+            {
+                "itemname": "Mattar Paneer ",
+                "description": "Peas with homemade cheese in a delicately spiced curry.",
+                "price": "$11.95"
+            },
+            {
+                "itemname": "Bengan Bharta ",
+                "description": "Grilled eggplant cooked with peas, potatoes, onions, and rare spices.",
+                "price": "$11.95"
+            }
+        ]
+    },
+    {
+        "name": "Rice",
+        "items": [
+            {
+                "itemname": "Lamb Biryani",
+                "description": "Rice cooked with lamb, herbs and spices.",
+                "price": "$13.95"
+            },
+            {
+                "itemname": "Chicken Biryani",
+                "description": "Rice cooked with boneless chicken, herbs and spices.",
+                "price": "$11.95"
+            },
+            {
+                "itemname": "Shrimp Biryani",
+                "description": "Rice cooked with shrimp, herbs and spices.",
+                "price": "$12.95"
+            },
+            {
+                "itemname": "Vegetable Biryani",
+                "description": "Rice cooked with fresh vegetables.",
+                "price": "$11.95"
+            },
+            {
+                "itemname": "Shola Pullao",
+                "description": "Basmati Rice cooked with peas, herbs and spices",
+                "price": "$10.95"
+            }
+        ]
+    },
+    {
+        "name": "Rice",
+        "items": [
+            {
+                "itemname": "Butter Naan",
+                "description": "A triangular shaped flat bread.",
+                "price": "$2.99"
+            },
+            {
+                "itemname": "Tandoori Roti",
+                "description": "A whole wheat bread",
+                "price": "$1.99"
+            },
+            {
+                "itemname": "Aloo Paratha",
+                "description": "Stuffed with mildly spiced potatoes.",
+                "price": "$2.99"
+            },
+            {
+                "itemname": "Kheema Paratha",
+                "description": "Stuffed with spiced ground lamb.",
+                "price": "$2.99"
+            }
+        ]
+    },
+    {
+        "name": "Desserts",
+        "items": [
+            {
+                "itemname": "Kheer",
+                "description": "A very popular rice pudding with almonds and raisins.",
+                "price": "$3.95"
+            },
+            {
+                "itemname": "Gulab Jamun",
+                "description": "Lustrous brown cream cheese balls in syrup.",
+                "price": "$3.95"
+            }
+        ]
+    }
