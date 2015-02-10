@@ -1,3 +1,4 @@
+[
     {
         "name": "Appetizers",
         "items": [
@@ -58,7 +59,7 @@
             },
             {
                 "itemname": "Onion Salad",
-                "description": "A popular Indian salad with onions, tomatoes, jalapeÃ±os and spices.",
+                "description": "A popular Indian salad with onions, tomatoes, jalapeños and spices.",
                 "price": "$4.59"
             }
         ]
@@ -163,3 +164,4 @@
             }
         ]
     }
+]

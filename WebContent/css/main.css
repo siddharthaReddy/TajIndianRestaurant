@@ -1,12 +1,19 @@
 .container {
   width: 100% !important;
 }
+.carousel-adjust {
+  margin: auto;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+	width:70%;
+  margin: auto;
+}
 body {
   background-color: #1ab394;
 }
 .wrapper {
-  width: 800px;
-  margin: 40px auto 0px auto;
+  margin: 40px 10px 0px 10px;
   background-color: #fff;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
