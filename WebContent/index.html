@@ -19,18 +19,23 @@
 <script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.12.0.js"></script>
 <!--  End of link to accordion -->
 
+<!-- Link to Google map image  -->
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<!-- End to Google map link -->
+
 <script src="js/ng-route.js"></script>
+<script src="js/controllers.js"></script>
+
 
 </head>
 <body>
 	<div class="wrapper">
 		<header>
-			<div class="banner text-center">
-				<a href="#/"><img src="images/Taj-Mahal-logo.png" id="logoImage"
-					width="100" height="100" alt="Taj Indian Restaurant Logo" /></a>
-			</div>
-
 			<div class="navbar navbar-default" role="navigation">
+				<div class="home-logo navbar-brand">
+					<a href="#/"><img src="images/Taj-Mahal-logo.png" id="logoImage"
+						width="100" height="100" alt="Taj Indian Restaurant Logo" /></a>
+				</div>
 				<ul class="nav navbar-nav navbar-center">
 					<li><a href="#/">Home</a></li>
 					<li><a href="#/menu">Menu</a></li>
@@ -38,37 +43,25 @@
 					<li><a href="#/about">About Us</a></li>
 					<li><a href="#/contact">Contact Us</a></li>
 				</ul>
-				 <form class="navbar-form navbar-right" role="search">
+				 <form class="navbar-form navbar-right">
         			<div class="form-group">
-          				<input type="text" class="form-control" placeholder="Search">
+          				<input type="text" placeholder="Search">
         			</div>
         			<button type="submit" class="btn btn-default">Go</button>
       			</form>
 			</div>
 		</header>
 
-		<nav></nav>
-
-		<section>
+		<section class="main-content">
 			<div ng-app="myapp">
 				<div ng-view=""></div>
-				<div>
-				
-				</div>
-				
 			</div>
 		</section>
 
 		<footer>
 			<div id="footer" class="navbar navbar-inverse" role="navigation">
-				<ul id="footerNavigation" class="nav navbar-nav navbar-right">
-					<li><a href="#/">Home</a></li>
-					<li><a href="#/menu">Menu</a></li>
-					<li><a href="#/gallery">Gallery</a></li>
-					<li><a href="#/about">About Us</a></li>
-					<li><a href="#/contact">Contact Us</a></li>
-				</ul>
-				<font class="navbar-text">&copy; 2014 Taj Indian Restaurant.
+
+				<font class="text-centre navbar-text">&copy; 2014 Taj Indian Restaurant.
 					All rights reserved.</font>
 			</div>
 		</footer>

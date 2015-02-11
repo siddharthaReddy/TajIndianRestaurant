@@ -1,5 +1,5 @@
 
-var myapp = angular.module('myapp',['ngRoute','ui.bootstrap']);
+var myapp = angular.module('myapp',['ngRoute','myAppControllers','ui.bootstrap']);
 
 myapp.config(function($routeProvider){
 	$routeProvider
@@ -25,29 +25,5 @@ myapp.config(function($routeProvider){
 	});
 });
 
-myapp.controller('HomeController', ['$scope','$log', function($scope, $log){
-	 $scope.myInterval = 5000;
-	  var slides = $scope.slides = [
-	  {image:'images/sliderImages/chicken.jpg',text:'Tandoori Chicken'},
-	  {image:'images/sliderImages/dessert.jpg',text:'Desserts and Snacks'},
-	  {image:'images/sliderImages/tiffins.jpg',text:'South Indian Tiffins'}];
-	$log.log("log test");
-}]);
 
-myapp.controller('MenuController', ['$scope',"$http", function($scope,$http){
-	$http.get("menu.json")
-    .success(function(response) {$scope.data = response;});
-}]);
-	
-myapp.controller('GalleryController', ['$scope',function($scope){
-	
-}]);
-
-myapp.controller('ContactController', ['$scope',function($scope){
-	
-}]);
-
-myapp.controller('AboutController', ['$scope',function($scope){
-	
-}]);
 

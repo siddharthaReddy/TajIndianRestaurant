@@ -1,7 +1,5 @@
-
-<div>
 	<!--  Slider -->
-	<div>
+	<div class="slider-content">
 		<carousel interval="myInterval">
 			<slide ng-repeat="slide in slides" active="slide.active">
 		    	<img ng-src="{{slide.image}}" style="margin:auto;">
@@ -12,9 +10,10 @@
 		</carousel>
  	</div>
 	<!--  End of Slider -->
+	
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-xs-12 col-sm-6 col-md-8">
+			<div class="col-xs-12 col-sm-6 col-md-8 col-lg-9">
 				<h2>Welcome</h2>
 				<p>Look no further than Taj Indian Restaurant. We specialize in
 					Indian cuisine. If you have never had the opportunity to try Indian
@@ -24,7 +23,7 @@
 					amount of spice based on your taste. Indian food is not necessarily
 					spicy hot.</p>
 			</div>
-			<div class="business-hours welcome col-xs-6 col-md-4 ">
+			<div class="business-hours welcome col-xs-12 col-sm-6 col-md-4 col-lg-3 ">
 				<h2>Business Hours</h2>
 				<h4>Lunch</h4>
 				<p>
@@ -37,6 +36,5 @@
 				<img src="images/lunchbuffet_banner.png" id="buffet" width="220"
 					height="150" alt="lunch buffet price" />
 			</div>
+		</div>
 	</div>
-</div>
-</div>
