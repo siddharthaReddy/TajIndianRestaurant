@@ -8,7 +8,7 @@ myapp.config(function($routeProvider){
 		controller: 'HomeController'
 	})
 	.when('/menu',{
-		templateUrl: 'menuitems.html',
+		templateUrl: 'pages/menu.html',
 		controller: 'MenuController'
 	})
 	.when('/gallery',{
@@ -25,8 +25,13 @@ myapp.config(function($routeProvider){
 	});
 });
 
-myapp.controller('HomeController', ['$scope',function($scope){
-	$scope.name= "Home";
+myapp.controller('HomeController', ['$scope','$log', function($scope, $log){
+	 $scope.myInterval = 5000;
+	  var slides = $scope.slides = [
+	  {image:'images/sliderImages/chicken.jpg',text:'Tandoori Chicken'},
+	  {image:'images/sliderImages/dessert.jpg',text:'Desserts and Snacks'},
+	  {image:'images/sliderImages/tiffins.jpg',text:'South Indian Tiffins'}];
+	$log.log("log test");
 }]);
 
 myapp.controller('MenuController', ['$scope',"$http", function($scope,$http){
