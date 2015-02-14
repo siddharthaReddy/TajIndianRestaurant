@@ -3,7 +3,7 @@
         "name": "Appetizers",
         "items": [
             {
-                "itemname": "samosa",
+                "itemname": "Samosa",
                 "description": "A light pastry shell stuffed with peas and potatoes.",
                 "price": "$5.95"
             },
