@@ -4,23 +4,23 @@ var myapp = angular.module('myapp',['ngRoute','myAppControllers','ui.bootstrap']
 myapp.config(function($routeProvider){
 	$routeProvider
 	.when('/',{
-		templateUrl: 'pages/home.html',
+		templateUrl: 'view/home.html',
 		controller: 'HomeController'
 	})
 	.when('/menu',{
-		templateUrl: 'pages/menu.html',
+		templateUrl: 'view/menu.html',
 		controller: 'MenuController'
 	})
 	.when('/gallery',{
-		templateUrl: 'pages/gallery.html',
+		templateUrl: 'view/gallery.html',
 		controller: 'GalleryController'
 	})
 	.when('/contact',{
-		templateUrl: 'pages/contact.html',
+		templateUrl: 'view/contact.html',
 		controller: 'ContactController'
 	})
 	.when('/about',{
-		templateUrl: 'pages/about.html',
+		templateUrl: 'view/about.html',
 		controller: 'AboutController'
 	});
 });
