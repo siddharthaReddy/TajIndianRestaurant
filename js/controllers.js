@@ -10,7 +10,7 @@ myAppControllers.controller('HomeController', ['$scope','$log', function($scope,
 
 myAppControllers.controller('MenuController', ['$scope',"$http", function($scope,$http){
 	//To get a local json file using ajax.get
-	$http.get("menu.json")
+	$http.get("mocks/menu.json")
    .success(function(response) {$scope.data = response;});
 }]);
 	

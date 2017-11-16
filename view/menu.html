@@ -1,0 +1,17 @@
+<div>
+        <accordion>
+                <accordion-group heading="{{course.name}}" ng-repeat="course in data">
+                        <!-- <div ng-repeat="list in course.items">{{list.itemname}} : {{list.description}}</div> -->
+                        <div ng-repeat="list in course.items">
+                                <table>
+                                        <tr>
+                                                <td class="pull-left"><strong>{{$index+1}}.&nbsp;</strong></td>
+                                                <td><strong>{{list.itemname}}</strong><br/>{{list.description}}</td>
+                                        </tr>
+                                </table>
+
+                        </div>
+
+                </accordion-group>
+        </accordion>
+</div>
